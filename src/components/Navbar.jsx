@@ -26,14 +26,14 @@ const Navbar = () => {
         >
           Technologies
         </Link>
-        <Link
+        {/* <Link
           to="experience"
           smooth={true}
           duration={500}
           className="cursor-pointer"
         >
           Experience
-        </Link>
+        </Link> */}
         <Link
           to="projects"
           smooth={true}

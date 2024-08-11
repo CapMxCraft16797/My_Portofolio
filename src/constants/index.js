@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import api from "../assets/projects/api-project.png";
+import crud from "../assets/projects/crud-project.png";
+import prayers from "../assets/projects/prayers-project.png";
+import dashboard from "../assets/projects/dashboard-project.png";
 
 export const HERO_CONTENT = `I am an experienced front-end engineer, I have a proven track record of delivering high-performing, visually stunning web applications that delight users and drive business success. With a deep understanding of HTML, CSS, JavaScript, and various front-end frameworks and libraries, I specialize in crafting responsive, accessible, and optimized user interfaces.`;
 
@@ -40,32 +40,36 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "CRUD Website",
+    image: crud,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A full CRUD website which enables you to create, remove, update products.",
+    technologies: ["HTML", "CSS", "JS"],
+    website: "https://capmxcraft16797.github.io/CRUD-project/",
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "Prayer Times API Project",
+    image: prayers,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A prayer times website which depends on API and display the prayer times according to the selected city.",
+    technologies: ["HTML", "CSS", "JS"],
+    website: "https://capmxcraft16797.github.io/prayer-times-project/",
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "DashBoard",
+    image: dashboard,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A dashboard to demonstrate number of users, products, post and revenue of a certain brand.",
+    technologies: ["HTML", "CSS"],
+    website: "https://capmxcraft16797.github.io/prayer-times-project/",
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "API-Project",
+    image: api,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "An api application website with features like changing the content as you change the topic.",
+    technologies: ["HTML", "CSS", "JS"],
+    website: "https://capmxcraft16797.github.io/api-project/",
   },
 ];
 
